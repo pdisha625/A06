@@ -7,3 +7,10 @@ body {
 	padding: 1em;
     border: 2px solid blue;
 }
+
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
